@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/contactus.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="/Project3.html">Home</a>
+        <a href="/About us.html">About us</a>
+        <a href="/Contact us.html">Contact us</a>
+
+    </div>
+
+    <div class="container">
+        <div style="text-align:center">
+            <h2>Any Complaints? Let us know</h2>
+            <p>Please tell us in detail.</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="/complaint.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="state">State</label>
+                    <select id="state" name="state">
+                        <option value="none">Select State</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Maharashtra</option>
+                        <option value="Kolkata">West Bengal</option>
+                        <option value="Chennai">Karnataka</option>
+                        <option value="Chennai">Gujrat</option>
+                        <option value="Chennai">Tamil Nadu</option>
+                        <option value="Chennai">Andhra Pradesh</option>
+                        <option value="Chennai">Punjab</option>
+                        <option value="Chennai">Kerala</option>
+                        <option value="Chennai">Uttar Pradesh</option>
+                        <option value="Chennai">Madhya Pradesh</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

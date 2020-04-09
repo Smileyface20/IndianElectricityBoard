@@ -1,0 +1,229 @@
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+    background-size:100%;
+  
+    background: linear-gradient(135deg,rgb(133, 168, 132)0%,rgb(201, 238, 203)100%);
+    background: linear-gradient(90deg,rgb(169, 235, 209)0%,rgb(253, 216, 166)100%);
+    
+    
+}
+
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+
+}
+   
+  
+
+* {
+    box-sizing: border-box;
+}
+.bottom-container {
+    text-align: center;
+    background-color: #666;
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+/* style inputs and link buttons */
+input,
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 10px;
+    text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+    opacity: 1;
+}
+.col {
+    float: left ;
+    width: 25%;
+    height:300px;
+    margin: 0px;
+    padding:  40px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(231, 231, 231);
+    /*background: linear-gradient(135deg,rgb(111, 122, 129)0%,rgb(111, 128, 133)100%);*/
+    border-radius: 30px;
+    margin-left: 20px;
+
+
+
+}
+ button{  margin-top:10px;
+ margin-right:10px;
+           width:135px;
+           height:30px;
+           border-radius:7px;
+           border:1px solid black;
+}
+button:hover{
+    background-color:#000000 ;
+    color:powderblue;
+}
+
+
+.col input{
+    border: 1px solid black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.vl {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px solid #ddd;
+    height: 175px;
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 8px 10px;
+}
+
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 33.33%; /* Four links of equal widths */
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: #000;
+    color: powderblue;
+
+}
+.margin{
+    margin-top: 20px;
+    margin-right: 120px;
+}
+
+
+.navbar a.active {
+    background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+.content{
+    float: center;
+        margin-left: 425px;
+        margin-top:12px;
+        border: 20px;
+
+}
+
+
+
+.faq{
+    float:left;
+    margin:10px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0px;
+    top: -500px;
+    background-color:rgb(231, 231, 231);
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+.faq ol{
+    margin:10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.faq h3{
+    text-align: center;
+}
+
+.faq ol li{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.faq ol li a{
+    text-align: left;
+    font-size: 15px;
+}
+.quick{
+    float:right;
+    top: -850px;
+    box-sizing: border-box;
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    position: relative;
+    min-width: 350px;
+    margin-right: 20px;
+    
+}
+.quick li{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.quick h2{
+   text-align:center;
+}
+
+.state{ float:right;
+    top: -500px;
+    box-sizing: border-box;
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    position: relative;
+    min-width: 360px;
+    margin-right: -350px;
+    margin-left: 10px;
+    text-align: center;
+    height: 370px;
+    padding: 0px;
+    }
+    .state li{
+        padding-bottom: 10px;
+        text-align: left;
+    }
+    
